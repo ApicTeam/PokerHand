@@ -1,4 +1,4 @@
-#include "minilibmx.h"
+#include "minilib.h"
 
 bool isFlush(const char *s){
 	int curr = 0;

@@ -285,6 +285,60 @@ src/lib.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/lib.c.s
 .PHONY : src/lib.c.s
 
+src/mx_del_extra_whitespaces.o: src/mx_del_extra_whitespaces.c.o
+
+.PHONY : src/mx_del_extra_whitespaces.o
+
+# target to build an object file
+src/mx_del_extra_whitespaces.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o
+.PHONY : src/mx_del_extra_whitespaces.c.o
+
+src/mx_del_extra_whitespaces.i: src/mx_del_extra_whitespaces.c.i
+
+.PHONY : src/mx_del_extra_whitespaces.i
+
+# target to preprocess a source file
+src/mx_del_extra_whitespaces.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.i
+.PHONY : src/mx_del_extra_whitespaces.c.i
+
+src/mx_del_extra_whitespaces.s: src/mx_del_extra_whitespaces.c.s
+
+.PHONY : src/mx_del_extra_whitespaces.s
+
+# target to generate assembly for a file
+src/mx_del_extra_whitespaces.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.s
+.PHONY : src/mx_del_extra_whitespaces.c.s
+
+src/mx_strtrim.o: src/mx_strtrim.c.o
+
+.PHONY : src/mx_strtrim.o
+
+# target to build an object file
+src/mx_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.o
+.PHONY : src/mx_strtrim.c.o
+
+src/mx_strtrim.i: src/mx_strtrim.c.i
+
+.PHONY : src/mx_strtrim.i
+
+# target to preprocess a source file
+src/mx_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.i
+.PHONY : src/mx_strtrim.c.i
+
+src/mx_strtrim.s: src/mx_strtrim.c.s
+
+.PHONY : src/mx_strtrim.s
+
+# target to generate assembly for a file
+src/mx_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.s
+.PHONY : src/mx_strtrim.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +366,12 @@ help:
 	@echo "... src/lib.o"
 	@echo "... src/lib.i"
 	@echo "... src/lib.s"
+	@echo "... src/mx_del_extra_whitespaces.o"
+	@echo "... src/mx_del_extra_whitespaces.i"
+	@echo "... src/mx_del_extra_whitespaces.s"
+	@echo "... src/mx_strtrim.o"
+	@echo "... src/mx_strtrim.i"
+	@echo "... src/mx_strtrim.s"
 .PHONY : help
 
 

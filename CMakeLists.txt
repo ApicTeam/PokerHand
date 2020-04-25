@@ -3,5 +3,5 @@ project(test C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(test main.c src/PokerHand.c src/isFlush.c inc/methods.h src/getPokerHand.c src/ErrorHandler.c inc/minilib.h src/lib.c)
+add_executable(test main.c src/PokerHand.c src/isFlush.c inc/methods.h src/getPokerHand.c src/ErrorHandler.c inc/minilib.h src/lib.c src/mx_del_extra_whitespaces.c src/mx_strtrim.c)
 include_directories(inc)

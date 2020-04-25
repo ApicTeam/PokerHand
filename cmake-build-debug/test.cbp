@@ -104,6 +104,12 @@
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

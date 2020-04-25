@@ -3,72 +3,93 @@
 
 t_pokerHand *get_poker_hand(const char *poker_hand)
 {
-    // TODO Add trim
-
     /* Variables Definitions */
     char temp_string[3];  // TODO Add malloc new str
     int card_status = 1;
 
+    /* Deletes spaces from input string */
+    poker_hand = mx_del_extra_whitespaces(poker_hand);
+
     // TODO Free that malloc
     t_pokerHand *tPokerHand = malloc(sizeof(t_pokerHand));
 
-    for (int card_size = 0; *poker_hand != '\0'; ++card_size)
+    /*
+     * Main Logic
+     * card_size == numbers of char for temp_string
+     * if card_size bigger then 1 error msg will display
+     */
+    for (int card_size = 0; *poker_hand != '\0'; card_size++)
     {
 
-        if (*poker_hand == ' ')
-
-            switch (card_status)
-            {
-                case 1:
-                    card_size = 0;
-                    card_status++;
-                    tPokerHand -> c1 = temp_string;
-                    break;
-
-                case 2:
-                    card_size = 0;
-                    card_status++;
-                    tPokerHand -> c2 = temp_string;
-                    break;
-
-                case 3:
-                    card_size = 0;
-                    card_status++;
-                    tPokerHand -> c3 = temp_string;
-                    break;
-
-                case 4:
-                    card_size = 0;
-                    card_status++;
-                    tPokerHand -> c4 = temp_string;
-                    break;
-
-                case 5:
-                    card_size = 0;
-                    card_status++;
-                    tPokerHand -> c5 = temp_string;
-                    break;
-
-                default:
-                    print_error(1, "NULL");
-                    break;
-            }
-
-        if (card_size > 2)  // Kostyl Number: 0
+        /*
+         * Logic for Invalid Card Error
+         * Raise error with code 3 eg. Invalid Card: <value>
+         * Send to print_error args: err_id and value of temp_string
+         * Then iterate to next space and print all of unsuspected char
+         */
+        if (card_size > 1)  // Kostyl Number: 0
         {
             print_error(3, temp_string);
 
             while (*poker_hand != ' ')
-                write(1, &*poker_hand++, 1);
+                write(2, &*poker_hand++, 1);
 
-            write(1, "\n", 1);
+            write(2, "\n", 1);
             exit(1);
         }
 
+        /* Add char to temp_string and moves forward pointer of poker_hand */
+        temp_string[card_size] = *poker_hand;
+        poker_hand++;
 
-        temp_string[card_size - 1] = poker_hand[card_size - 1];
+        /* Fill up poker_hand struct each card
+         * if card_status more then 5
+         * Raise error of usage(err_id = 1)
+         */
+        if (*poker_hand == ' ' || *poker_hand == '\0')
 
-    }
+            switch (card_status)
+            {
+            case 1:
+              card_size = -1;
+              card_status++;
+              poker_hand++;
+              mx_strcpy(tPokerHand -> c1, temp_string);
+              break;
+
+            case 2:
+              card_size = -1;
+              card_status++;
+              poker_hand++;
+              mx_strcpy(tPokerHand -> c2, temp_string);
+              break;
+
+            case 3:
+              card_size = -1;
+              card_status++;
+              poker_hand++;
+              mx_strcpy(tPokerHand -> c3, temp_string);
+              break;
+
+            case 4:
+              card_size = -1;
+              card_status++;
+              poker_hand++;
+              mx_strcpy(tPokerHand -> c4, temp_string);
+              break;
+
+            case 5:
+              card_size = -1;
+              card_status++;
+              poker_hand++;
+              mx_strcpy(tPokerHand -> c5, temp_string);
+              break;
+
+            default:
+              print_error(1, "NULL");
+              break;
+            }
+      }
 
     return tPokerHand;
 }

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/methods.h
+stdbool.h
+-
+stdlib.h
+-
+
+../inc/minilib.h
+unistd.h
+-
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c
+stdio.h
+-
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c
+minilib.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/minilib.h
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/PokerHand.c
+methods.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/methods.h
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c
+methods.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/methods.h
+minilib.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/minilib.h
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c
+minilib.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/minilib.h
+

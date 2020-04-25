@@ -8,6 +8,6 @@ bool isFlush(const char *s){
 			curr++;
 		i++;
 	}
-	return curr;
+	return curr == 4;
 }
 

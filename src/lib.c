@@ -193,3 +193,15 @@ char *mx_strcat(char *s1, const char *s2)
 
   return s1;
 }
+
+t_pokerHand *get_last_card(t_pokerHand *hand)
+{
+	for (; hand -> next != NULL; hand = hand -> next);
+	return hand;
+}
+
+void mx_printstr(const char *s)
+{
+  write(1, s, mx_strlen(s));
+  write(1, "\n", 1);
+}

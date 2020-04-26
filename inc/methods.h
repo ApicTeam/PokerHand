@@ -34,5 +34,14 @@ void mx_push_back(t_pokerHand **list, char *rank, char *suit);
 bool is_suit(char *suit);
 bool is_rank(char *rank);
 void PokerHand(char *poker_hand);
+t_pokerHand *mx_sort_poker_hand(t_pokerHand *list, bool(*cmp)(t_pokerHand *hand1, t_pokerHand *hand2));
+bool byRank(t_pokerHand *hand1, t_pokerHand *hand2);
+bool bySuit(t_pokerHand *hand1, t_pokerHand *hand2);
+t_pokerHand *get_last_card(t_pokerHand *hand);
+char *make_card(t_pokerHand *tPokerHand);
+void print_result(int result_id);
+
+/* Combinations */
+void isFlush(t_pokerHand *hand);
 
 #endif//TEST_METHODS_H

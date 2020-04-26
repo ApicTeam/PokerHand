@@ -16,6 +16,7 @@ CMakeFiles/test.dir/src/getPokerHand.c.o
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c
 CMakeFiles/test.dir/src/isFlush.c.o
+ ../inc/methods.h
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
 CMakeFiles/test.dir/src/lib.c.o
@@ -28,3 +29,10 @@ CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o
 CMakeFiles/test.dir/src/mx_strtrim.c.o
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c
+CMakeFiles/test.dir/src/print_result.c.o
+ ../inc/minilib.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c
+CMakeFiles/test.dir/src/sort_poker_hand.c.o
+ ../inc/methods.h
+ ../inc/minilib.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c

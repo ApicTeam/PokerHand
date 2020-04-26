@@ -339,6 +339,60 @@ src/mx_strtrim.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.s
 .PHONY : src/mx_strtrim.c.s
 
+src/print_result.o: src/print_result.c.o
+
+.PHONY : src/print_result.o
+
+# target to build an object file
+src/print_result.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.o
+.PHONY : src/print_result.c.o
+
+src/print_result.i: src/print_result.c.i
+
+.PHONY : src/print_result.i
+
+# target to preprocess a source file
+src/print_result.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.i
+.PHONY : src/print_result.c.i
+
+src/print_result.s: src/print_result.c.s
+
+.PHONY : src/print_result.s
+
+# target to generate assembly for a file
+src/print_result.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.s
+.PHONY : src/print_result.c.s
+
+src/sort_poker_hand.o: src/sort_poker_hand.c.o
+
+.PHONY : src/sort_poker_hand.o
+
+# target to build an object file
+src/sort_poker_hand.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.o
+.PHONY : src/sort_poker_hand.c.o
+
+src/sort_poker_hand.i: src/sort_poker_hand.c.i
+
+.PHONY : src/sort_poker_hand.i
+
+# target to preprocess a source file
+src/sort_poker_hand.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.i
+.PHONY : src/sort_poker_hand.c.i
+
+src/sort_poker_hand.s: src/sort_poker_hand.c.s
+
+.PHONY : src/sort_poker_hand.s
+
+# target to generate assembly for a file
+src/sort_poker_hand.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.s
+.PHONY : src/sort_poker_hand.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +426,12 @@ help:
 	@echo "... src/mx_strtrim.o"
 	@echo "... src/mx_strtrim.i"
 	@echo "... src/mx_strtrim.s"
+	@echo "... src/print_result.o"
+	@echo "... src/print_result.i"
+	@echo "... src/print_result.s"
+	@echo "... src/sort_poker_hand.o"
+	@echo "... src/sort_poker_hand.i"
+	@echo "... src/sort_poker_hand.s"
 .PHONY : help
 
 

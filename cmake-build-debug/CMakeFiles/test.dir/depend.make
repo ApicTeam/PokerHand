@@ -15,6 +15,7 @@ CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/getPokerHand.c.o: ../src/getPokerHand.c
 
+CMakeFiles/test.dir/src/isFlush.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/isFlush.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/isFlush.c.o: ../src/isFlush.c
 
@@ -27,4 +28,11 @@ CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o: ../src/mx_del_extra_whites
 
 CMakeFiles/test.dir/src/mx_strtrim.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/mx_strtrim.c.o: ../src/mx_strtrim.c
+
+CMakeFiles/test.dir/src/print_result.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/print_result.c.o: ../src/print_result.c
+
+CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../src/sort_poker_hand.c
 

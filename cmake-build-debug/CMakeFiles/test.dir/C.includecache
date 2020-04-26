@@ -12,7 +12,17 @@ stdbool.h
 stdlib.h
 -
 
-/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c
+../inc/minilib.h
+unistd.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
 methods.h
-/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/methods.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/methods.h
+minilib.h
+/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/minilib.h
 

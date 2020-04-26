@@ -110,6 +110,12 @@
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

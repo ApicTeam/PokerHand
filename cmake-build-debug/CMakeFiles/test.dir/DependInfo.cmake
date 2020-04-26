@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c" "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles/test.dir/src/lib.c.o"
   "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c" "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o"
   "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c" "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles/test.dir/src/mx_strtrim.c.o"
+  "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c" "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles/test.dir/src/print_result.c.o"
+  "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c" "/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles/test.dir/src/sort_poker_hand.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/src/lib.c.o"
   "CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o"
   "CMakeFiles/test.dir/src/mx_strtrim.c.o"
+  "CMakeFiles/test.dir/src/print_result.c.o"
+  "CMakeFiles/test.dir/src/sort_poker_hand.c.o"
   "test"
   "test.pdb"
 )

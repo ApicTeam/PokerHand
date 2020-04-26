@@ -18,5 +18,6 @@ bool mx_is_suit(char suit);
 int mx_count_words(const char *str, char c);
 int mx_strcmp(const char *s1, const char *s2);
 char *mx_strcat(char *s1, const char *s2);
+void mx_printstr(const char *s);
 
 #endif // TEST_MINILIB_H

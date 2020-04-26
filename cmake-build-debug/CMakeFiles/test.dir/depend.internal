@@ -9,14 +9,17 @@ CMakeFiles/test.dir/src/ErrorHandler.c.o
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c
 CMakeFiles/test.dir/src/PokerHand.c.o
  ../inc/methods.h
+ ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/PokerHand.c
 CMakeFiles/test.dir/src/getPokerHand.c.o
  ../inc/methods.h
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c
 CMakeFiles/test.dir/src/isFlush.c.o
+ ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
 CMakeFiles/test.dir/src/lib.c.o
+ ../inc/methods.h
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c
 CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o

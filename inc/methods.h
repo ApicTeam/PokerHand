@@ -6,19 +6,33 @@
 #include <stdlib.h>
 
 /* Structures */
+//typedef struct s_pokerHand
+//{
+//    char *c1;
+//    char *c2;
+//    char *c3;
+//    char *c4;
+//    char *c5;
+//}              t_pokerHand;
+
+
 typedef struct s_pokerHand
 {
-    char c1[3];
-    char c2[3];
-    char c3[3];
-    char c4[3];
-    char c5[3];
+    char *rank;
+    char *suit;
+    struct s_pokerHand *next;
 }              t_pokerHand;
 
 /* Prototypes */
-void print_error(int error_id, char *value);
+void raise_error(int error_id, char *value);
+//t_pokerHand *get_poker_hand(const char *poker_hand);
 t_pokerHand *get_poker_hand(const char *poker_hand);
 char *mx_strcpy(char*dst, const char*src);
 char *mx_del_extra_whitespaces(const char *str);
+t_pokerHand *mx_create_node(char *rank, char *suit);
+void mx_push_back(t_pokerHand **list, char *rank, char *suit);
+bool is_suit(char *suit);
+bool is_rank(char *rank);
+void PokerHand(char *poker_hand);
 
 #endif//TEST_METHODS_H

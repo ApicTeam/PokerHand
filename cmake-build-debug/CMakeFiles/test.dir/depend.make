@@ -8,14 +8,17 @@ CMakeFiles/test.dir/src/ErrorHandler.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/ErrorHandler.c.o: ../src/ErrorHandler.c
 
 CMakeFiles/test.dir/src/PokerHand.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/PokerHand.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/PokerHand.c.o: ../src/PokerHand.c
 
 CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/getPokerHand.c.o: ../src/getPokerHand.c
 
+CMakeFiles/test.dir/src/isFlush.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/isFlush.c.o: ../src/isFlush.c
 
+CMakeFiles/test.dir/src/lib.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/lib.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/lib.c.o: ../src/lib.c
 

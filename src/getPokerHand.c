@@ -3,93 +3,74 @@
 
 t_pokerHand *get_poker_hand(const char *poker_hand)
 {
-    /* Variables Definitions */
-    char temp_string[3];  // TODO Add malloc new str
-    int card_status = 1;
 
-    /* Deletes spaces from input string */
-    poker_hand = mx_del_extra_whitespaces(poker_hand);
+	/* Variable Definition */
+    t_pokerHand *last_card = NULL;
 
-    // TODO Free that malloc
-    t_pokerHand *tPokerHand = malloc(sizeof(t_pokerHand));
+    // TODO Free that memory
+    char *rank = mx_strnew(100);
+    char *suit = mx_strnew(100);
 
-    /*
-     * Main Logic
-     * card_size == numbers of char for temp_string
-     * if card_size bigger then 1 error msg will display
-     */
-    for (int card_size = 0; *poker_hand != '\0'; card_size++)
+    int temp = 0;
+
+	poker_hand = mx_del_extra_whitespaces(poker_hand);
+
+	/* Base Case */
+	if (mx_count_words(poker_hand, ' ') != 5) raise_error(1, "NULL");
+
+	/*
+	 * Main Logic
+	 * r is rank index
+	 * s is suit index
+	 * card_count counts card for loop and possible error check
+	 */
+    for (int r = 0, s = 0, card_count = 1; card_count <= 5;)
     {
-
-        /*
-         * Logic for Invalid Card Error
-         * Raise error with code 3 eg. Invalid Card: <value>
-         * Send to print_error args: err_id and value of temp_string
-         * Then iterate to next space and print all of unsuspected char
-         */
-        if (card_size > 1)  // Kostyl Number: 0
+		/*
+		 * First if allocate ranks and suit
+		 * Possible Fixes:
+		 * Remove temp variable
+		 */
+        if (*poker_hand != ' ' && *poker_hand != '\0')
         {
-            print_error(3, temp_string);
+            while (!mx_is_suit(*poker_hand) && temp == 0 && *poker_hand != '\0')
+                rank[r] = *poker_hand++, r++;
 
-            while (*poker_hand != ' ')
-                write(2, &*poker_hand++, 1);
-
-            write(2, "\n", 1);
-            exit(1);
+            temp = 1;
+            suit[s] = *poker_hand++, s++;
         }
 
-        /* Add char to temp_string and moves forward pointer of poker_hand */
-        temp_string[card_size] = *poker_hand;
-        poker_hand++;
-
-        /* Fill up poker_hand struct each card
-         * if card_status more then 5
-         * Raise error of usage(err_id = 1)
-         */
-        if (*poker_hand == ' ' || *poker_hand == '\0')
-
-            switch (card_status)
+		/* Second if create nodes of list */
+        else if (*poker_hand == ' ' || *poker_hand == '\0')
+        {
+            if (last_card == NULL)  // Creat first node if it is first data
             {
-            case 1:
-              card_size = -1;
-              card_status++;
-              poker_hand++;
-              mx_strcpy(tPokerHand -> c1, temp_string);
-              break;
-
-            case 2:
-              card_size = -1;
-              card_status++;
-              poker_hand++;
-              mx_strcpy(tPokerHand -> c2, temp_string);
-              break;
-
-            case 3:
-              card_size = -1;
-              card_status++;
-              poker_hand++;
-              mx_strcpy(tPokerHand -> c3, temp_string);
-              break;
-
-            case 4:
-              card_size = -1;
-              card_status++;
-              poker_hand++;
-              mx_strcpy(tPokerHand -> c4, temp_string);
-              break;
-
-            case 5:
-              card_size = -1;
-              card_status++;
-              poker_hand++;
-              mx_strcpy(tPokerHand -> c5, temp_string);
-              break;
-
-            default:
-              print_error(1, "NULL");
-              break;
+                last_card = mx_create_node(mx_strcpy(mx_strnew(mx_strlen(rank)), rank),
+                                           mx_strcpy(mx_strnew(mx_strlen(suit)), suit));
+                r = 0, s = 0, temp = 0, card_count++;
+	            free(rank);
+	            free(suit);
+	            rank = mx_strnew(100);
+	            suit = mx_strnew(100);
             }
-      }
+            else // Create next node
+            {
+                mx_push_back(&last_card, mx_strcpy(mx_strnew(mx_strlen(rank)), rank),
+                             mx_strcpy(mx_strnew(mx_strlen(suit)), suit));
+                r = 0, s = 0, temp = 0, card_count++;
+				free(rank);
+				free(suit);
+				rank = mx_strnew(100);
+	            suit = mx_strnew(100);
 
-    return tPokerHand;
+            }
+            poker_hand++;
+        }
+    }
+
+	/* Garbage Collector */
+	mx_strdel(&rank);
+	mx_strdel(&suit);
+
+    return last_card;
 }

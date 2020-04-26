@@ -1,10 +1,7 @@
 #include "methods.h"
-#include <stdio.h>
-int main() {
 
-    t_pokerHand *result = get_poker_hand("3D 4D 5D D");
-
+int main()
+{
+    PokerHand("3D 4D 5D 6D 8S");
     return 0;
 }
-
-//I love pizza

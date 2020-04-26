@@ -29,14 +29,18 @@ void print_result(int result_id)
 			break;
 
 		case 7:
-			mx_printstr("Two pair");
+			mx_printstr("Three of a kind");
 			break;
 
 		case 8:
-			mx_printstr("One pair");
+			mx_printstr("Two pair");
 			break;
 
 		case 9:
+			mx_printstr("One pair");
+			break;
+
+		case 10:
 			mx_printstr("No pair");
 			break;
 

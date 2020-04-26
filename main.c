@@ -2,6 +2,6 @@
 
 int main()
 {
-    PokerHand("AH 10S JS QD KC");
+    PokerHand("QD 5C KD 7D 2C");
     return 0;
 }

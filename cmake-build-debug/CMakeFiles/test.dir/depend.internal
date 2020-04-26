@@ -4,10 +4,25 @@
 CMakeFiles/test.dir/main.c.o
  ../inc/methods.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c
+CMakeFiles/test.dir/src/Combinations/is22s.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is22s.c
+CMakeFiles/test.dir/src/Combinations/is2s.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is2s.c
+CMakeFiles/test.dir/src/Combinations/is3s.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is3s.c
+CMakeFiles/test.dir/src/Combinations/is4s.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is4s.c
 CMakeFiles/test.dir/src/Combinations/isFlush.c.o
  ../inc/methods.h
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFullHouse.c
 CMakeFiles/test.dir/src/Combinations/isStraight.c.o
  ../inc/methods.h
  ../inc/minilib.h

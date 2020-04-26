@@ -13,9 +13,10 @@ char *make_card(t_pokerHand *tPokerHand) {
 }
 
 void check_duplicate(t_pokerHand *tPokerHand) {
+	tPokerHand = mx_sort_poker_hand(tPokerHand,  byRank);
 	for (; tPokerHand->next->next != NULL; tPokerHand = tPokerHand->next)
 		if (mx_strcmp(tPokerHand->suit, tPokerHand->next->suit) == 0 &&
-			mx_strcmp(tPokerHand->rank, tPokerHand->next->rank) == 0)
+		    mx_strcmp(tPokerHand->rank, tPokerHand->next->rank) == 0)
 			raise_error(2, make_card(tPokerHand));
 }
 
@@ -50,7 +51,56 @@ void PokerHand(char *poker_hand) {
 		print_result(2);
 		freeList(tPokerHand);
 	}
+	else if(is4s(tPokerHand))
+	{
+		print_result(3);
+		freeList(tPokerHand);
+	}
 
-	isFlush(tPokerHand);
-	isStraight(tPokerHand);
+	tPokerHand = get_poker_hand(poker_hand);
+
+	if(isFullHouse(tPokerHand))
+	{
+		print_result(4);
+		freeList(tPokerHand);
+	}
+
+	else if (isFlush(tPokerHand))
+	{
+		print_result(5);
+		freeList(tPokerHand);
+	}
+
+	tPokerHand = get_poker_hand(poker_hand);
+
+	if (isStraight(tPokerHand))
+	{
+		print_result(6);
+		freeList(tPokerHand);
+	}
+
+	tPokerHand = get_poker_hand(poker_hand);
+
+	if (is3s(tPokerHand))
+	{
+		print_result(7);
+		freeList(tPokerHand);
+	}
+
+	if (is22s(tPokerHand))
+	{
+		print_result(8);
+		freeList(tPokerHand);
+	}
+
+	if(is2s(tPokerHand))
+	{
+		print_result(9);
+		freeList(tPokerHand);
+	}
+
+	print_result(10);
+	freeList(tPokerHand);
+
+
 }

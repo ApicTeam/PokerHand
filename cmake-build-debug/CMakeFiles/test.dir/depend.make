@@ -4,9 +4,24 @@
 CMakeFiles/test.dir/main.c.o: ../inc/methods.h
 CMakeFiles/test.dir/main.c.o: ../main.c
 
+CMakeFiles/test.dir/src/Combinations/is22s.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/is22s.c.o: ../src/Combinations/is22s.c
+
+CMakeFiles/test.dir/src/Combinations/is2s.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/is2s.c.o: ../src/Combinations/is2s.c
+
+CMakeFiles/test.dir/src/Combinations/is3s.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/is3s.c.o: ../src/Combinations/is3s.c
+
+CMakeFiles/test.dir/src/Combinations/is4s.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/is4s.c.o: ../src/Combinations/is4s.c
+
 CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../src/Combinations/isFlush.c
+
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o: ../src/Combinations/isFullHouse.c
 
 CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../inc/minilib.h

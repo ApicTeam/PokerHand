@@ -29,48 +29,25 @@ bool bySuit(t_pokerHand *hand1, t_pokerHand *hand2)
 }
 
 
-t_pokerHand *mx_sort_poker_hand(t_pokerHand *list, bool(*cmp)(t_pokerHand *hand1, t_pokerHand *hand2)){
-	t_pokerHand *ptr = list;
-	t_pokerHand *temp = ptr;
-	bool swapped = true;
+t_pokerHand *mx_sort_poker_hand(t_pokerHand *list, bool(*cmp)(t_pokerHand *hand1, t_pokerHand *hand2))
+{
+	if (!list) return NULL;
 
-	while(swapped)
+	for (t_pokerHand *i = list; i -> next != NULL; i = i -> next)
 	{
-		swapped = false;
+		t_pokerHand *sorted = i;
 
-		while(ptr->next)
-		{
-			if(cmp(ptr, ptr->next))
-			{
-				if(temp != ptr && ptr->next->next)
-				{
-					temp -> next = ptr -> next;
-					ptr -> next = ptr -> next -> next;
-					temp -> next -> next = ptr;
-					swapped = true;
-				}
-				else if(temp == ptr && ptr->next)
-				{
-					ptr = ptr -> next;
-					temp -> next = ptr -> next;
-					ptr -> next = temp;
-					list = ptr;
-					swapped = true;
-				}
-				else
-				{
-					temp -> next = ptr -> next;
-					temp -> next -> next = ptr;
-					ptr -> next = NULL;
-				}
-			}
-			temp = ptr;
-			if(ptr -> next)
-				ptr = ptr -> next;
-		}
-		ptr = list;
-		temp = ptr;
+		for (t_pokerHand *j = i -> next; j != NULL; j = j -> next)
+			if (cmp(sorted, j))
+				sorted = j;
+
+
+		void *temp_rank = sorted -> rank;
+		void *temp_suit = sorted -> suit;
+		sorted -> rank = i -> rank;
+		sorted -> suit = i -> suit;
+		i -> rank = temp_rank;
+		i -> suit = temp_suit;
 	}
-
 	return list;
 }

@@ -49,6 +49,11 @@ void print_result(int result_id);
 /* Combinations */
 bool isFlush(t_pokerHand *hand);
 bool isStraight(t_pokerHand *hand);
+bool is4s(t_pokerHand *hand);
+bool isFullHouse(t_pokerHand *hand);
+bool is3s(t_pokerHand *hand);
+bool is22s(t_pokerHand *hand);
+bool is2s(t_pokerHand *hand);
 
 /* Utils */
 void DeletePokerHand(t_pokerHand *tPokerHand); // Garbage Collector

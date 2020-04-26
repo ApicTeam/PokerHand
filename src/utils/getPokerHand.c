@@ -35,11 +35,13 @@ t_pokerHand *get_poker_hand(char *poker_hand)
 		 */
         if (*poker_hand != ' ' && *poker_hand != '\0')
         {
-            while (!mx_is_suit(*poker_hand) && temp == 0 && *poker_hand != '\0')
+            while (!mx_is_suit(*poker_hand) && temp == 0 && *poker_hand != '\0' && *poker_hand != ' ')
                 rank[r] = *poker_hand++, r++;
 
-            temp = 1;
-            suit[s] = *poker_hand++, s++;
+			if (*poker_hand != ' ') {
+				temp = 1;
+				suit[s] = *poker_hand++, s++;
+			}
         }
 
 		/* Second if create nodes of list */
@@ -73,6 +75,9 @@ t_pokerHand *get_poker_hand(char *poker_hand)
 	/* Garbage Collector */
 	mx_strdel(&rank);
 	mx_strdel(&suit);
+
+	if (temp_len <= 13)
+		temp_len += 1;
 
 	for (int i = temp_len; i >= 0; i--)
 		poker_hand--;

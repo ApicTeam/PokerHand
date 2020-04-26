@@ -226,18 +226,70 @@ CMakeFiles/test.dir/src/utils/GenerateCard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/GenerateCard.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c -o CMakeFiles/test.dir/src/utils/GenerateCard.c.s
 
-CMakeFiles/test.dir/src/utils/is4s.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/utils/is4s.c.o: ../src/utils/is4s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/src/utils/is4s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/is4s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c
+CMakeFiles/test.dir/src/Combinations/is4s.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/is4s.c.o: ../src/Combinations/is4s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/src/Combinations/is4s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/is4s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is4s.c
 
-CMakeFiles/test.dir/src/utils/is4s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/is4s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c > CMakeFiles/test.dir/src/utils/is4s.c.i
+CMakeFiles/test.dir/src/Combinations/is4s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/is4s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is4s.c > CMakeFiles/test.dir/src/Combinations/is4s.c.i
 
-CMakeFiles/test.dir/src/utils/is4s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/is4s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c -o CMakeFiles/test.dir/src/utils/is4s.c.s
+CMakeFiles/test.dir/src/Combinations/is4s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/is4s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is4s.c -o CMakeFiles/test.dir/src/Combinations/is4s.c.s
+
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o: ../src/Combinations/isFullHouse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFullHouse.c
+
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/isFullHouse.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFullHouse.c > CMakeFiles/test.dir/src/Combinations/isFullHouse.c.i
+
+CMakeFiles/test.dir/src/Combinations/isFullHouse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/isFullHouse.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFullHouse.c -o CMakeFiles/test.dir/src/Combinations/isFullHouse.c.s
+
+CMakeFiles/test.dir/src/Combinations/is3s.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/is3s.c.o: ../src/Combinations/is3s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test.dir/src/Combinations/is3s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/is3s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is3s.c
+
+CMakeFiles/test.dir/src/Combinations/is3s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/is3s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is3s.c > CMakeFiles/test.dir/src/Combinations/is3s.c.i
+
+CMakeFiles/test.dir/src/Combinations/is3s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/is3s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is3s.c -o CMakeFiles/test.dir/src/Combinations/is3s.c.s
+
+CMakeFiles/test.dir/src/Combinations/is22s.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/is22s.c.o: ../src/Combinations/is22s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test.dir/src/Combinations/is22s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/is22s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is22s.c
+
+CMakeFiles/test.dir/src/Combinations/is22s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/is22s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is22s.c > CMakeFiles/test.dir/src/Combinations/is22s.c.i
+
+CMakeFiles/test.dir/src/Combinations/is22s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/is22s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is22s.c -o CMakeFiles/test.dir/src/Combinations/is22s.c.s
+
+CMakeFiles/test.dir/src/Combinations/is2s.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/is2s.c.o: ../src/Combinations/is2s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test.dir/src/Combinations/is2s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/is2s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is2s.c
+
+CMakeFiles/test.dir/src/Combinations/is2s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/is2s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is2s.c > CMakeFiles/test.dir/src/Combinations/is2s.c.i
+
+CMakeFiles/test.dir/src/Combinations/is2s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/is2s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is2s.c -o CMakeFiles/test.dir/src/Combinations/is2s.c.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -254,7 +306,11 @@ test_OBJECTS = \
 "CMakeFiles/test.dir/src/Combinations/isStraight.c.o" \
 "CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o" \
 "CMakeFiles/test.dir/src/utils/GenerateCard.c.o" \
-"CMakeFiles/test.dir/src/utils/is4s.c.o"
+"CMakeFiles/test.dir/src/Combinations/is4s.c.o" \
+"CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o" \
+"CMakeFiles/test.dir/src/Combinations/is3s.c.o" \
+"CMakeFiles/test.dir/src/Combinations/is22s.c.o" \
+"CMakeFiles/test.dir/src/Combinations/is2s.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
@@ -272,10 +328,14 @@ test: CMakeFiles/test.dir/src/utils/print_result.c.o
 test: CMakeFiles/test.dir/src/Combinations/isStraight.c.o
 test: CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o
 test: CMakeFiles/test.dir/src/utils/GenerateCard.c.o
-test: CMakeFiles/test.dir/src/utils/is4s.c.o
+test: CMakeFiles/test.dir/src/Combinations/is4s.c.o
+test: CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o
+test: CMakeFiles/test.dir/src/Combinations/is3s.c.o
+test: CMakeFiles/test.dir/src/Combinations/is22s.c.o
+test: CMakeFiles/test.dir/src/Combinations/is2s.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

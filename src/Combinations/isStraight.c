@@ -46,4 +46,6 @@ bool isStraight(t_pokerHand *hand)
 			return true;
 		}
 	}
+
+	return false;
 }

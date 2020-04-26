@@ -150,6 +150,114 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
 .PHONY : main.c.s
 
+src/Combinations/is22s.o: src/Combinations/is22s.c.o
+
+.PHONY : src/Combinations/is22s.o
+
+# target to build an object file
+src/Combinations/is22s.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is22s.c.o
+.PHONY : src/Combinations/is22s.c.o
+
+src/Combinations/is22s.i: src/Combinations/is22s.c.i
+
+.PHONY : src/Combinations/is22s.i
+
+# target to preprocess a source file
+src/Combinations/is22s.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is22s.c.i
+.PHONY : src/Combinations/is22s.c.i
+
+src/Combinations/is22s.s: src/Combinations/is22s.c.s
+
+.PHONY : src/Combinations/is22s.s
+
+# target to generate assembly for a file
+src/Combinations/is22s.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is22s.c.s
+.PHONY : src/Combinations/is22s.c.s
+
+src/Combinations/is2s.o: src/Combinations/is2s.c.o
+
+.PHONY : src/Combinations/is2s.o
+
+# target to build an object file
+src/Combinations/is2s.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is2s.c.o
+.PHONY : src/Combinations/is2s.c.o
+
+src/Combinations/is2s.i: src/Combinations/is2s.c.i
+
+.PHONY : src/Combinations/is2s.i
+
+# target to preprocess a source file
+src/Combinations/is2s.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is2s.c.i
+.PHONY : src/Combinations/is2s.c.i
+
+src/Combinations/is2s.s: src/Combinations/is2s.c.s
+
+.PHONY : src/Combinations/is2s.s
+
+# target to generate assembly for a file
+src/Combinations/is2s.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is2s.c.s
+.PHONY : src/Combinations/is2s.c.s
+
+src/Combinations/is3s.o: src/Combinations/is3s.c.o
+
+.PHONY : src/Combinations/is3s.o
+
+# target to build an object file
+src/Combinations/is3s.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is3s.c.o
+.PHONY : src/Combinations/is3s.c.o
+
+src/Combinations/is3s.i: src/Combinations/is3s.c.i
+
+.PHONY : src/Combinations/is3s.i
+
+# target to preprocess a source file
+src/Combinations/is3s.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is3s.c.i
+.PHONY : src/Combinations/is3s.c.i
+
+src/Combinations/is3s.s: src/Combinations/is3s.c.s
+
+.PHONY : src/Combinations/is3s.s
+
+# target to generate assembly for a file
+src/Combinations/is3s.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is3s.c.s
+.PHONY : src/Combinations/is3s.c.s
+
+src/Combinations/is4s.o: src/Combinations/is4s.c.o
+
+.PHONY : src/Combinations/is4s.o
+
+# target to build an object file
+src/Combinations/is4s.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is4s.c.o
+.PHONY : src/Combinations/is4s.c.o
+
+src/Combinations/is4s.i: src/Combinations/is4s.c.i
+
+.PHONY : src/Combinations/is4s.i
+
+# target to preprocess a source file
+src/Combinations/is4s.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is4s.c.i
+.PHONY : src/Combinations/is4s.c.i
+
+src/Combinations/is4s.s: src/Combinations/is4s.c.s
+
+.PHONY : src/Combinations/is4s.s
+
+# target to generate assembly for a file
+src/Combinations/is4s.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/is4s.c.s
+.PHONY : src/Combinations/is4s.c.s
+
 src/Combinations/isFlush.o: src/Combinations/isFlush.c.o
 
 .PHONY : src/Combinations/isFlush.o
@@ -176,6 +284,33 @@ src/Combinations/isFlush.s: src/Combinations/isFlush.c.s
 src/Combinations/isFlush.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFlush.c.s
 .PHONY : src/Combinations/isFlush.c.s
+
+src/Combinations/isFullHouse.o: src/Combinations/isFullHouse.c.o
+
+.PHONY : src/Combinations/isFullHouse.o
+
+# target to build an object file
+src/Combinations/isFullHouse.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFullHouse.c.o
+.PHONY : src/Combinations/isFullHouse.c.o
+
+src/Combinations/isFullHouse.i: src/Combinations/isFullHouse.c.i
+
+.PHONY : src/Combinations/isFullHouse.i
+
+# target to preprocess a source file
+src/Combinations/isFullHouse.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFullHouse.c.i
+.PHONY : src/Combinations/isFullHouse.c.i
+
+src/Combinations/isFullHouse.s: src/Combinations/isFullHouse.c.s
+
+.PHONY : src/Combinations/isFullHouse.s
+
+# target to generate assembly for a file
+src/Combinations/isFullHouse.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFullHouse.c.s
+.PHONY : src/Combinations/isFullHouse.c.s
 
 src/Combinations/isStraight.o: src/Combinations/isStraight.c.o
 
@@ -339,33 +474,6 @@ src/utils/getPokerHand.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/getPokerHand.c.s
 .PHONY : src/utils/getPokerHand.c.s
 
-src/utils/is4s.o: src/utils/is4s.c.o
-
-.PHONY : src/utils/is4s.o
-
-# target to build an object file
-src/utils/is4s.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.o
-.PHONY : src/utils/is4s.c.o
-
-src/utils/is4s.i: src/utils/is4s.c.i
-
-.PHONY : src/utils/is4s.i
-
-# target to preprocess a source file
-src/utils/is4s.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.i
-.PHONY : src/utils/is4s.c.i
-
-src/utils/is4s.s: src/utils/is4s.c.s
-
-.PHONY : src/utils/is4s.s
-
-# target to generate assembly for a file
-src/utils/is4s.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.s
-.PHONY : src/utils/is4s.c.s
-
 src/utils/lib.o: src/utils/lib.c.o
 
 .PHONY : src/utils/lib.o
@@ -513,9 +621,24 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Combinations/is22s.o"
+	@echo "... src/Combinations/is22s.i"
+	@echo "... src/Combinations/is22s.s"
+	@echo "... src/Combinations/is2s.o"
+	@echo "... src/Combinations/is2s.i"
+	@echo "... src/Combinations/is2s.s"
+	@echo "... src/Combinations/is3s.o"
+	@echo "... src/Combinations/is3s.i"
+	@echo "... src/Combinations/is3s.s"
+	@echo "... src/Combinations/is4s.o"
+	@echo "... src/Combinations/is4s.i"
+	@echo "... src/Combinations/is4s.s"
 	@echo "... src/Combinations/isFlush.o"
 	@echo "... src/Combinations/isFlush.i"
 	@echo "... src/Combinations/isFlush.s"
+	@echo "... src/Combinations/isFullHouse.o"
+	@echo "... src/Combinations/isFullHouse.i"
+	@echo "... src/Combinations/isFullHouse.s"
 	@echo "... src/Combinations/isStraight.o"
 	@echo "... src/Combinations/isStraight.i"
 	@echo "... src/Combinations/isStraight.s"
@@ -534,9 +657,6 @@ help:
 	@echo "... src/utils/getPokerHand.o"
 	@echo "... src/utils/getPokerHand.i"
 	@echo "... src/utils/getPokerHand.s"
-	@echo "... src/utils/is4s.o"
-	@echo "... src/utils/is4s.i"
-	@echo "... src/utils/is4s.s"
 	@echo "... src/utils/lib.o"
 	@echo "... src/utils/lib.i"
 	@echo "... src/utils/lib.s"

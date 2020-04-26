@@ -89,7 +89,22 @@
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is22s.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is2s.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is3s.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/is4s.c">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFullHouse.c">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c">
@@ -108,9 +123,6 @@
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c">
-			<Option target="test"/>
-		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c">

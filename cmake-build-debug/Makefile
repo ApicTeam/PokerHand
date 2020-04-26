@@ -150,32 +150,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
 .PHONY : main.c.s
 
-src/ErrorHandler.o: src/ErrorHandler.c.o
+src/Combinations/isFlush.o: src/Combinations/isFlush.c.o
 
-.PHONY : src/ErrorHandler.o
+.PHONY : src/Combinations/isFlush.o
 
 # target to build an object file
-src/ErrorHandler.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/ErrorHandler.c.o
-.PHONY : src/ErrorHandler.c.o
+src/Combinations/isFlush.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFlush.c.o
+.PHONY : src/Combinations/isFlush.c.o
 
-src/ErrorHandler.i: src/ErrorHandler.c.i
+src/Combinations/isFlush.i: src/Combinations/isFlush.c.i
 
-.PHONY : src/ErrorHandler.i
+.PHONY : src/Combinations/isFlush.i
 
 # target to preprocess a source file
-src/ErrorHandler.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/ErrorHandler.c.i
-.PHONY : src/ErrorHandler.c.i
+src/Combinations/isFlush.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFlush.c.i
+.PHONY : src/Combinations/isFlush.c.i
 
-src/ErrorHandler.s: src/ErrorHandler.c.s
+src/Combinations/isFlush.s: src/Combinations/isFlush.c.s
 
-.PHONY : src/ErrorHandler.s
+.PHONY : src/Combinations/isFlush.s
 
 # target to generate assembly for a file
-src/ErrorHandler.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/ErrorHandler.c.s
-.PHONY : src/ErrorHandler.c.s
+src/Combinations/isFlush.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isFlush.c.s
+.PHONY : src/Combinations/isFlush.c.s
+
+src/Combinations/isStraight.o: src/Combinations/isStraight.c.o
+
+.PHONY : src/Combinations/isStraight.o
+
+# target to build an object file
+src/Combinations/isStraight.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isStraight.c.o
+.PHONY : src/Combinations/isStraight.c.o
+
+src/Combinations/isStraight.i: src/Combinations/isStraight.c.i
+
+.PHONY : src/Combinations/isStraight.i
+
+# target to preprocess a source file
+src/Combinations/isStraight.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isStraight.c.i
+.PHONY : src/Combinations/isStraight.c.i
+
+src/Combinations/isStraight.s: src/Combinations/isStraight.c.s
+
+.PHONY : src/Combinations/isStraight.s
+
+# target to generate assembly for a file
+src/Combinations/isStraight.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/Combinations/isStraight.c.s
+.PHONY : src/Combinations/isStraight.c.s
 
 src/PokerHand.o: src/PokerHand.c.o
 
@@ -204,194 +231,275 @@ src/PokerHand.c.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/PokerHand.c.s
 .PHONY : src/PokerHand.c.s
 
-src/getPokerHand.o: src/getPokerHand.c.o
+src/utils/ErrorHandler.o: src/utils/ErrorHandler.c.o
 
-.PHONY : src/getPokerHand.o
-
-# target to build an object file
-src/getPokerHand.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/getPokerHand.c.o
-.PHONY : src/getPokerHand.c.o
-
-src/getPokerHand.i: src/getPokerHand.c.i
-
-.PHONY : src/getPokerHand.i
-
-# target to preprocess a source file
-src/getPokerHand.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/getPokerHand.c.i
-.PHONY : src/getPokerHand.c.i
-
-src/getPokerHand.s: src/getPokerHand.c.s
-
-.PHONY : src/getPokerHand.s
-
-# target to generate assembly for a file
-src/getPokerHand.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/getPokerHand.c.s
-.PHONY : src/getPokerHand.c.s
-
-src/isFlush.o: src/isFlush.c.o
-
-.PHONY : src/isFlush.o
+.PHONY : src/utils/ErrorHandler.o
 
 # target to build an object file
-src/isFlush.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/isFlush.c.o
-.PHONY : src/isFlush.c.o
+src/utils/ErrorHandler.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/ErrorHandler.c.o
+.PHONY : src/utils/ErrorHandler.c.o
 
-src/isFlush.i: src/isFlush.c.i
+src/utils/ErrorHandler.i: src/utils/ErrorHandler.c.i
 
-.PHONY : src/isFlush.i
+.PHONY : src/utils/ErrorHandler.i
 
 # target to preprocess a source file
-src/isFlush.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/isFlush.c.i
-.PHONY : src/isFlush.c.i
+src/utils/ErrorHandler.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/ErrorHandler.c.i
+.PHONY : src/utils/ErrorHandler.c.i
 
-src/isFlush.s: src/isFlush.c.s
+src/utils/ErrorHandler.s: src/utils/ErrorHandler.c.s
 
-.PHONY : src/isFlush.s
+.PHONY : src/utils/ErrorHandler.s
 
 # target to generate assembly for a file
-src/isFlush.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/isFlush.c.s
-.PHONY : src/isFlush.c.s
+src/utils/ErrorHandler.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/ErrorHandler.c.s
+.PHONY : src/utils/ErrorHandler.c.s
 
-src/lib.o: src/lib.c.o
+src/utils/GenerateCard.o: src/utils/GenerateCard.c.o
 
-.PHONY : src/lib.o
+.PHONY : src/utils/GenerateCard.o
 
 # target to build an object file
-src/lib.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/lib.c.o
-.PHONY : src/lib.c.o
+src/utils/GenerateCard.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/GenerateCard.c.o
+.PHONY : src/utils/GenerateCard.c.o
 
-src/lib.i: src/lib.c.i
+src/utils/GenerateCard.i: src/utils/GenerateCard.c.i
 
-.PHONY : src/lib.i
+.PHONY : src/utils/GenerateCard.i
 
 # target to preprocess a source file
-src/lib.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/lib.c.i
-.PHONY : src/lib.c.i
+src/utils/GenerateCard.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/GenerateCard.c.i
+.PHONY : src/utils/GenerateCard.c.i
 
-src/lib.s: src/lib.c.s
+src/utils/GenerateCard.s: src/utils/GenerateCard.c.s
 
-.PHONY : src/lib.s
+.PHONY : src/utils/GenerateCard.s
 
 # target to generate assembly for a file
-src/lib.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/lib.c.s
-.PHONY : src/lib.c.s
+src/utils/GenerateCard.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/GenerateCard.c.s
+.PHONY : src/utils/GenerateCard.c.s
 
-src/mx_del_extra_whitespaces.o: src/mx_del_extra_whitespaces.c.o
+src/utils/PokerHandErraser.o: src/utils/PokerHandErraser.c.o
 
-.PHONY : src/mx_del_extra_whitespaces.o
+.PHONY : src/utils/PokerHandErraser.o
 
 # target to build an object file
-src/mx_del_extra_whitespaces.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o
-.PHONY : src/mx_del_extra_whitespaces.c.o
+src/utils/PokerHandErraser.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o
+.PHONY : src/utils/PokerHandErraser.c.o
 
-src/mx_del_extra_whitespaces.i: src/mx_del_extra_whitespaces.c.i
+src/utils/PokerHandErraser.i: src/utils/PokerHandErraser.c.i
 
-.PHONY : src/mx_del_extra_whitespaces.i
+.PHONY : src/utils/PokerHandErraser.i
 
 # target to preprocess a source file
-src/mx_del_extra_whitespaces.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.i
-.PHONY : src/mx_del_extra_whitespaces.c.i
+src/utils/PokerHandErraser.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/PokerHandErraser.c.i
+.PHONY : src/utils/PokerHandErraser.c.i
 
-src/mx_del_extra_whitespaces.s: src/mx_del_extra_whitespaces.c.s
+src/utils/PokerHandErraser.s: src/utils/PokerHandErraser.c.s
 
-.PHONY : src/mx_del_extra_whitespaces.s
+.PHONY : src/utils/PokerHandErraser.s
 
 # target to generate assembly for a file
-src/mx_del_extra_whitespaces.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.s
-.PHONY : src/mx_del_extra_whitespaces.c.s
+src/utils/PokerHandErraser.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/PokerHandErraser.c.s
+.PHONY : src/utils/PokerHandErraser.c.s
 
-src/mx_strtrim.o: src/mx_strtrim.c.o
+src/utils/getPokerHand.o: src/utils/getPokerHand.c.o
 
-.PHONY : src/mx_strtrim.o
+.PHONY : src/utils/getPokerHand.o
 
 # target to build an object file
-src/mx_strtrim.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.o
-.PHONY : src/mx_strtrim.c.o
+src/utils/getPokerHand.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/getPokerHand.c.o
+.PHONY : src/utils/getPokerHand.c.o
 
-src/mx_strtrim.i: src/mx_strtrim.c.i
+src/utils/getPokerHand.i: src/utils/getPokerHand.c.i
 
-.PHONY : src/mx_strtrim.i
+.PHONY : src/utils/getPokerHand.i
 
 # target to preprocess a source file
-src/mx_strtrim.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.i
-.PHONY : src/mx_strtrim.c.i
+src/utils/getPokerHand.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/getPokerHand.c.i
+.PHONY : src/utils/getPokerHand.c.i
 
-src/mx_strtrim.s: src/mx_strtrim.c.s
+src/utils/getPokerHand.s: src/utils/getPokerHand.c.s
 
-.PHONY : src/mx_strtrim.s
+.PHONY : src/utils/getPokerHand.s
 
 # target to generate assembly for a file
-src/mx_strtrim.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/mx_strtrim.c.s
-.PHONY : src/mx_strtrim.c.s
+src/utils/getPokerHand.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/getPokerHand.c.s
+.PHONY : src/utils/getPokerHand.c.s
 
-src/print_result.o: src/print_result.c.o
+src/utils/is4s.o: src/utils/is4s.c.o
 
-.PHONY : src/print_result.o
+.PHONY : src/utils/is4s.o
 
 # target to build an object file
-src/print_result.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.o
-.PHONY : src/print_result.c.o
+src/utils/is4s.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.o
+.PHONY : src/utils/is4s.c.o
 
-src/print_result.i: src/print_result.c.i
+src/utils/is4s.i: src/utils/is4s.c.i
 
-.PHONY : src/print_result.i
+.PHONY : src/utils/is4s.i
 
 # target to preprocess a source file
-src/print_result.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.i
-.PHONY : src/print_result.c.i
+src/utils/is4s.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.i
+.PHONY : src/utils/is4s.c.i
 
-src/print_result.s: src/print_result.c.s
+src/utils/is4s.s: src/utils/is4s.c.s
 
-.PHONY : src/print_result.s
+.PHONY : src/utils/is4s.s
 
 # target to generate assembly for a file
-src/print_result.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/print_result.c.s
-.PHONY : src/print_result.c.s
+src/utils/is4s.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/is4s.c.s
+.PHONY : src/utils/is4s.c.s
 
-src/sort_poker_hand.o: src/sort_poker_hand.c.o
+src/utils/lib.o: src/utils/lib.c.o
 
-.PHONY : src/sort_poker_hand.o
+.PHONY : src/utils/lib.o
 
 # target to build an object file
-src/sort_poker_hand.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.o
-.PHONY : src/sort_poker_hand.c.o
+src/utils/lib.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/lib.c.o
+.PHONY : src/utils/lib.c.o
 
-src/sort_poker_hand.i: src/sort_poker_hand.c.i
+src/utils/lib.i: src/utils/lib.c.i
 
-.PHONY : src/sort_poker_hand.i
+.PHONY : src/utils/lib.i
 
 # target to preprocess a source file
-src/sort_poker_hand.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.i
-.PHONY : src/sort_poker_hand.c.i
+src/utils/lib.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/lib.c.i
+.PHONY : src/utils/lib.c.i
 
-src/sort_poker_hand.s: src/sort_poker_hand.c.s
+src/utils/lib.s: src/utils/lib.c.s
 
-.PHONY : src/sort_poker_hand.s
+.PHONY : src/utils/lib.s
 
 # target to generate assembly for a file
-src/sort_poker_hand.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/sort_poker_hand.c.s
-.PHONY : src/sort_poker_hand.c.s
+src/utils/lib.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/lib.c.s
+.PHONY : src/utils/lib.c.s
+
+src/utils/mx_del_extra_whitespaces.o: src/utils/mx_del_extra_whitespaces.c.o
+
+.PHONY : src/utils/mx_del_extra_whitespaces.o
+
+# target to build an object file
+src/utils/mx_del_extra_whitespaces.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o
+.PHONY : src/utils/mx_del_extra_whitespaces.c.o
+
+src/utils/mx_del_extra_whitespaces.i: src/utils/mx_del_extra_whitespaces.c.i
+
+.PHONY : src/utils/mx_del_extra_whitespaces.i
+
+# target to preprocess a source file
+src/utils/mx_del_extra_whitespaces.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.i
+.PHONY : src/utils/mx_del_extra_whitespaces.c.i
+
+src/utils/mx_del_extra_whitespaces.s: src/utils/mx_del_extra_whitespaces.c.s
+
+.PHONY : src/utils/mx_del_extra_whitespaces.s
+
+# target to generate assembly for a file
+src/utils/mx_del_extra_whitespaces.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.s
+.PHONY : src/utils/mx_del_extra_whitespaces.c.s
+
+src/utils/mx_strtrim.o: src/utils/mx_strtrim.c.o
+
+.PHONY : src/utils/mx_strtrim.o
+
+# target to build an object file
+src/utils/mx_strtrim.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_strtrim.c.o
+.PHONY : src/utils/mx_strtrim.c.o
+
+src/utils/mx_strtrim.i: src/utils/mx_strtrim.c.i
+
+.PHONY : src/utils/mx_strtrim.i
+
+# target to preprocess a source file
+src/utils/mx_strtrim.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_strtrim.c.i
+.PHONY : src/utils/mx_strtrim.c.i
+
+src/utils/mx_strtrim.s: src/utils/mx_strtrim.c.s
+
+.PHONY : src/utils/mx_strtrim.s
+
+# target to generate assembly for a file
+src/utils/mx_strtrim.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/mx_strtrim.c.s
+.PHONY : src/utils/mx_strtrim.c.s
+
+src/utils/print_result.o: src/utils/print_result.c.o
+
+.PHONY : src/utils/print_result.o
+
+# target to build an object file
+src/utils/print_result.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/print_result.c.o
+.PHONY : src/utils/print_result.c.o
+
+src/utils/print_result.i: src/utils/print_result.c.i
+
+.PHONY : src/utils/print_result.i
+
+# target to preprocess a source file
+src/utils/print_result.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/print_result.c.i
+.PHONY : src/utils/print_result.c.i
+
+src/utils/print_result.s: src/utils/print_result.c.s
+
+.PHONY : src/utils/print_result.s
+
+# target to generate assembly for a file
+src/utils/print_result.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/print_result.c.s
+.PHONY : src/utils/print_result.c.s
+
+src/utils/sort_poker_hand.o: src/utils/sort_poker_hand.c.o
+
+.PHONY : src/utils/sort_poker_hand.o
+
+# target to build an object file
+src/utils/sort_poker_hand.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o
+.PHONY : src/utils/sort_poker_hand.c.o
+
+src/utils/sort_poker_hand.i: src/utils/sort_poker_hand.c.i
+
+.PHONY : src/utils/sort_poker_hand.i
+
+# target to preprocess a source file
+src/utils/sort_poker_hand.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/sort_poker_hand.c.i
+.PHONY : src/utils/sort_poker_hand.c.i
+
+src/utils/sort_poker_hand.s: src/utils/sort_poker_hand.c.s
+
+.PHONY : src/utils/sort_poker_hand.s
+
+# target to generate assembly for a file
+src/utils/sort_poker_hand.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/utils/sort_poker_hand.c.s
+.PHONY : src/utils/sort_poker_hand.c.s
 
 # Help Target
 help:
@@ -405,33 +513,45 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/ErrorHandler.o"
-	@echo "... src/ErrorHandler.i"
-	@echo "... src/ErrorHandler.s"
+	@echo "... src/Combinations/isFlush.o"
+	@echo "... src/Combinations/isFlush.i"
+	@echo "... src/Combinations/isFlush.s"
+	@echo "... src/Combinations/isStraight.o"
+	@echo "... src/Combinations/isStraight.i"
+	@echo "... src/Combinations/isStraight.s"
 	@echo "... src/PokerHand.o"
 	@echo "... src/PokerHand.i"
 	@echo "... src/PokerHand.s"
-	@echo "... src/getPokerHand.o"
-	@echo "... src/getPokerHand.i"
-	@echo "... src/getPokerHand.s"
-	@echo "... src/isFlush.o"
-	@echo "... src/isFlush.i"
-	@echo "... src/isFlush.s"
-	@echo "... src/lib.o"
-	@echo "... src/lib.i"
-	@echo "... src/lib.s"
-	@echo "... src/mx_del_extra_whitespaces.o"
-	@echo "... src/mx_del_extra_whitespaces.i"
-	@echo "... src/mx_del_extra_whitespaces.s"
-	@echo "... src/mx_strtrim.o"
-	@echo "... src/mx_strtrim.i"
-	@echo "... src/mx_strtrim.s"
-	@echo "... src/print_result.o"
-	@echo "... src/print_result.i"
-	@echo "... src/print_result.s"
-	@echo "... src/sort_poker_hand.o"
-	@echo "... src/sort_poker_hand.i"
-	@echo "... src/sort_poker_hand.s"
+	@echo "... src/utils/ErrorHandler.o"
+	@echo "... src/utils/ErrorHandler.i"
+	@echo "... src/utils/ErrorHandler.s"
+	@echo "... src/utils/GenerateCard.o"
+	@echo "... src/utils/GenerateCard.i"
+	@echo "... src/utils/GenerateCard.s"
+	@echo "... src/utils/PokerHandErraser.o"
+	@echo "... src/utils/PokerHandErraser.i"
+	@echo "... src/utils/PokerHandErraser.s"
+	@echo "... src/utils/getPokerHand.o"
+	@echo "... src/utils/getPokerHand.i"
+	@echo "... src/utils/getPokerHand.s"
+	@echo "... src/utils/is4s.o"
+	@echo "... src/utils/is4s.i"
+	@echo "... src/utils/is4s.s"
+	@echo "... src/utils/lib.o"
+	@echo "... src/utils/lib.i"
+	@echo "... src/utils/lib.s"
+	@echo "... src/utils/mx_del_extra_whitespaces.o"
+	@echo "... src/utils/mx_del_extra_whitespaces.i"
+	@echo "... src/utils/mx_del_extra_whitespaces.s"
+	@echo "... src/utils/mx_strtrim.o"
+	@echo "... src/utils/mx_strtrim.i"
+	@echo "... src/utils/mx_strtrim.s"
+	@echo "... src/utils/print_result.o"
+	@echo "... src/utils/print_result.i"
+	@echo "... src/utils/print_result.s"
+	@echo "... src/utils/sort_poker_hand.o"
+	@echo "... src/utils/sort_poker_hand.i"
+	@echo "... src/utils/sort_poker_hand.s"
 .PHONY : help
 
 

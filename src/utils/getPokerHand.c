@@ -1,7 +1,7 @@
 #include "methods.h"
 #include "minilib.h"
 
-t_pokerHand *get_poker_hand(const char *poker_hand)
+t_pokerHand *get_poker_hand(char *poker_hand)
 {
 
 	/* Variable Definition */
@@ -14,6 +14,8 @@ t_pokerHand *get_poker_hand(const char *poker_hand)
     int temp = 0;
 
 	poker_hand = mx_del_extra_whitespaces(poker_hand);
+
+	int temp_len = mx_strlen(poker_hand);
 
 	/* Base Case */
 	if (mx_count_words(poker_hand, ' ') != 5) raise_error(1, "NULL");
@@ -72,5 +74,10 @@ t_pokerHand *get_poker_hand(const char *poker_hand)
 	mx_strdel(&rank);
 	mx_strdel(&suit);
 
-    return last_card;
+	for (int i = temp_len; i >= 0; i--)
+		poker_hand--;
+
+	mx_strdel(&poker_hand);
+
+	return last_card;
 }

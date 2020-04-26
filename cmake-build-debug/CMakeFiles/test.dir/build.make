@@ -83,139 +83,199 @@ CMakeFiles/test.dir/src/PokerHand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/PokerHand.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/PokerHand.c -o CMakeFiles/test.dir/src/PokerHand.c.s
 
-CMakeFiles/test.dir/src/isFlush.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/isFlush.c.o: ../src/isFlush.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.dir/src/isFlush.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/isFlush.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../src/Combinations/isFlush.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test.dir/src/Combinations/isFlush.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/isFlush.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c
 
-CMakeFiles/test.dir/src/isFlush.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/isFlush.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c > CMakeFiles/test.dir/src/isFlush.c.i
+CMakeFiles/test.dir/src/Combinations/isFlush.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/isFlush.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c > CMakeFiles/test.dir/src/Combinations/isFlush.c.i
 
-CMakeFiles/test.dir/src/isFlush.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/isFlush.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c -o CMakeFiles/test.dir/src/isFlush.c.s
+CMakeFiles/test.dir/src/Combinations/isFlush.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/isFlush.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c -o CMakeFiles/test.dir/src/Combinations/isFlush.c.s
 
-CMakeFiles/test.dir/src/ErrorHandler.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/ErrorHandler.c.o: ../src/ErrorHandler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test.dir/src/ErrorHandler.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/ErrorHandler.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.o: ../src/utils/ErrorHandler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test.dir/src/utils/ErrorHandler.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/ErrorHandler.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/ErrorHandler.c
 
-CMakeFiles/test.dir/src/ErrorHandler.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/ErrorHandler.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c > CMakeFiles/test.dir/src/ErrorHandler.c.i
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/ErrorHandler.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/ErrorHandler.c > CMakeFiles/test.dir/src/utils/ErrorHandler.c.i
 
-CMakeFiles/test.dir/src/ErrorHandler.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/ErrorHandler.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c -o CMakeFiles/test.dir/src/ErrorHandler.c.s
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/ErrorHandler.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/ErrorHandler.c -o CMakeFiles/test.dir/src/utils/ErrorHandler.c.s
 
-CMakeFiles/test.dir/src/lib.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/lib.c.o: ../src/lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test.dir/src/lib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/lib.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c
+CMakeFiles/test.dir/src/utils/lib.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/lib.c.o: ../src/utils/lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/test.dir/src/utils/lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/lib.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c
 
-CMakeFiles/test.dir/src/lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/lib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c > CMakeFiles/test.dir/src/lib.c.i
+CMakeFiles/test.dir/src/utils/lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/lib.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c > CMakeFiles/test.dir/src/utils/lib.c.i
 
-CMakeFiles/test.dir/src/lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/lib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c -o CMakeFiles/test.dir/src/lib.c.s
+CMakeFiles/test.dir/src/utils/lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/lib.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c -o CMakeFiles/test.dir/src/utils/lib.c.s
 
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o: ../src/mx_del_extra_whitespaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o: ../src/utils/mx_del_extra_whitespaces.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_del_extra_whitespaces.c
 
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c > CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.i
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_del_extra_whitespaces.c > CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.i
 
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c -o CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.s
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_del_extra_whitespaces.c -o CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.s
 
-CMakeFiles/test.dir/src/mx_strtrim.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/mx_strtrim.c.o: ../src/mx_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test.dir/src/mx_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/mx_strtrim.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.o: ../src/utils/mx_strtrim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/test.dir/src/utils/mx_strtrim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/mx_strtrim.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_strtrim.c
 
-CMakeFiles/test.dir/src/mx_strtrim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/mx_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c > CMakeFiles/test.dir/src/mx_strtrim.c.i
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/mx_strtrim.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_strtrim.c > CMakeFiles/test.dir/src/utils/mx_strtrim.c.i
 
-CMakeFiles/test.dir/src/mx_strtrim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/mx_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c -o CMakeFiles/test.dir/src/mx_strtrim.c.s
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/mx_strtrim.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_strtrim.c -o CMakeFiles/test.dir/src/utils/mx_strtrim.c.s
 
-CMakeFiles/test.dir/src/getPokerHand.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/getPokerHand.c.o: ../src/getPokerHand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test.dir/src/getPokerHand.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/getPokerHand.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o: ../src/utils/getPokerHand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/test.dir/src/utils/getPokerHand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/getPokerHand.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c
 
-CMakeFiles/test.dir/src/getPokerHand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/getPokerHand.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c > CMakeFiles/test.dir/src/getPokerHand.c.i
+CMakeFiles/test.dir/src/utils/getPokerHand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/getPokerHand.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c > CMakeFiles/test.dir/src/utils/getPokerHand.c.i
 
-CMakeFiles/test.dir/src/getPokerHand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/getPokerHand.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c -o CMakeFiles/test.dir/src/getPokerHand.c.s
+CMakeFiles/test.dir/src/utils/getPokerHand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/getPokerHand.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c -o CMakeFiles/test.dir/src/utils/getPokerHand.c.s
 
-CMakeFiles/test.dir/src/sort_poker_hand.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../src/sort_poker_hand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/src/sort_poker_hand.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/sort_poker_hand.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o: ../src/utils/sort_poker_hand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/sort_poker_hand.c
 
-CMakeFiles/test.dir/src/sort_poker_hand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/sort_poker_hand.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c > CMakeFiles/test.dir/src/sort_poker_hand.c.i
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/sort_poker_hand.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/sort_poker_hand.c > CMakeFiles/test.dir/src/utils/sort_poker_hand.c.i
 
-CMakeFiles/test.dir/src/sort_poker_hand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/sort_poker_hand.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c -o CMakeFiles/test.dir/src/sort_poker_hand.c.s
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/sort_poker_hand.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/sort_poker_hand.c -o CMakeFiles/test.dir/src/utils/sort_poker_hand.c.s
 
-CMakeFiles/test.dir/src/print_result.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/src/print_result.c.o: ../src/print_result.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/src/print_result.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/print_result.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c
+CMakeFiles/test.dir/src/utils/print_result.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/print_result.c.o: ../src/utils/print_result.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/test.dir/src/utils/print_result.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/print_result.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/print_result.c
 
-CMakeFiles/test.dir/src/print_result.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/print_result.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c > CMakeFiles/test.dir/src/print_result.c.i
+CMakeFiles/test.dir/src/utils/print_result.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/print_result.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/print_result.c > CMakeFiles/test.dir/src/utils/print_result.c.i
 
-CMakeFiles/test.dir/src/print_result.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/print_result.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c -o CMakeFiles/test.dir/src/print_result.c.s
+CMakeFiles/test.dir/src/utils/print_result.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/print_result.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/print_result.c -o CMakeFiles/test.dir/src/utils/print_result.c.s
+
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../src/Combinations/isStraight.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/src/Combinations/isStraight.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/Combinations/isStraight.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c
+
+CMakeFiles/test.dir/src/Combinations/isStraight.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/Combinations/isStraight.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c > CMakeFiles/test.dir/src/Combinations/isStraight.c.i
+
+CMakeFiles/test.dir/src/Combinations/isStraight.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/Combinations/isStraight.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c -o CMakeFiles/test.dir/src/Combinations/isStraight.c.s
+
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o: ../src/utils/PokerHandErraser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/PokerHandErraser.c
+
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/PokerHandErraser.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/PokerHandErraser.c > CMakeFiles/test.dir/src/utils/PokerHandErraser.c.i
+
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/PokerHandErraser.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/PokerHandErraser.c -o CMakeFiles/test.dir/src/utils/PokerHandErraser.c.s
+
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o: ../src/utils/GenerateCard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test.dir/src/utils/GenerateCard.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/GenerateCard.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c
+
+CMakeFiles/test.dir/src/utils/GenerateCard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/GenerateCard.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c > CMakeFiles/test.dir/src/utils/GenerateCard.c.i
+
+CMakeFiles/test.dir/src/utils/GenerateCard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/GenerateCard.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c -o CMakeFiles/test.dir/src/utils/GenerateCard.c.s
+
+CMakeFiles/test.dir/src/utils/is4s.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/src/utils/is4s.c.o: ../src/utils/is4s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/src/utils/is4s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/src/utils/is4s.c.o   -c /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c
+
+CMakeFiles/test.dir/src/utils/is4s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/src/utils/is4s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c > CMakeFiles/test.dir/src/utils/is4s.c.i
+
+CMakeFiles/test.dir/src/utils/is4s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/src/utils/is4s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c -o CMakeFiles/test.dir/src/utils/is4s.c.s
 
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/main.c.o" \
 "CMakeFiles/test.dir/src/PokerHand.c.o" \
-"CMakeFiles/test.dir/src/isFlush.c.o" \
-"CMakeFiles/test.dir/src/ErrorHandler.c.o" \
-"CMakeFiles/test.dir/src/lib.c.o" \
-"CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o" \
-"CMakeFiles/test.dir/src/mx_strtrim.c.o" \
-"CMakeFiles/test.dir/src/getPokerHand.c.o" \
-"CMakeFiles/test.dir/src/sort_poker_hand.c.o" \
-"CMakeFiles/test.dir/src/print_result.c.o"
+"CMakeFiles/test.dir/src/Combinations/isFlush.c.o" \
+"CMakeFiles/test.dir/src/utils/ErrorHandler.c.o" \
+"CMakeFiles/test.dir/src/utils/lib.c.o" \
+"CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o" \
+"CMakeFiles/test.dir/src/utils/mx_strtrim.c.o" \
+"CMakeFiles/test.dir/src/utils/getPokerHand.c.o" \
+"CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o" \
+"CMakeFiles/test.dir/src/utils/print_result.c.o" \
+"CMakeFiles/test.dir/src/Combinations/isStraight.c.o" \
+"CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o" \
+"CMakeFiles/test.dir/src/utils/GenerateCard.c.o" \
+"CMakeFiles/test.dir/src/utils/is4s.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
 test: CMakeFiles/test.dir/main.c.o
 test: CMakeFiles/test.dir/src/PokerHand.c.o
-test: CMakeFiles/test.dir/src/isFlush.c.o
-test: CMakeFiles/test.dir/src/ErrorHandler.c.o
-test: CMakeFiles/test.dir/src/lib.c.o
-test: CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o
-test: CMakeFiles/test.dir/src/mx_strtrim.c.o
-test: CMakeFiles/test.dir/src/getPokerHand.c.o
-test: CMakeFiles/test.dir/src/sort_poker_hand.c.o
-test: CMakeFiles/test.dir/src/print_result.c.o
+test: CMakeFiles/test.dir/src/Combinations/isFlush.c.o
+test: CMakeFiles/test.dir/src/utils/ErrorHandler.c.o
+test: CMakeFiles/test.dir/src/utils/lib.c.o
+test: CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o
+test: CMakeFiles/test.dir/src/utils/mx_strtrim.c.o
+test: CMakeFiles/test.dir/src/utils/getPokerHand.c.o
+test: CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o
+test: CMakeFiles/test.dir/src/utils/print_result.c.o
+test: CMakeFiles/test.dir/src/Combinations/isStraight.c.o
+test: CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o
+test: CMakeFiles/test.dir/src/utils/GenerateCard.c.o
+test: CMakeFiles/test.dir/src/utils/is4s.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,39 +6,39 @@ void print_result(int result_id)
 	{
 		case 1:
 			mx_printstr("Royal flush");
-			exit(0);
+			break;
 
 		case 2:
 			mx_printstr("Straight flush");
-			exit(0);
+			break;
 
 		case 3:
 			mx_printstr("Four of a kind");
-			exit(0);
+			break;
 
 		case 4:
 			mx_printstr("Full house");
-			exit(0);
+			break;
 
 		case 5:
 			mx_printstr("Flush");
-			exit(0);
+			break;
 
 		case 6:
 			mx_printstr("Straight");
-			exit(0);
+			break;
 
 		case 7:
 			mx_printstr("Two pair");
-			exit(0);
+			break;
 
 		case 8:
 			mx_printstr("One pair");
-			exit(0);
+			break;
 
 		case 9:
 			mx_printstr("No pair");
-			exit(0);
+			break;
 
 		default:
 			break;

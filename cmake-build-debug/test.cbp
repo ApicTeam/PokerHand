@@ -89,31 +89,43 @@
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/PokerHand.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/ErrorHandler.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/PokerHandErraser.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/is4s.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c">
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_del_extra_whitespaces.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_strtrim.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/print_result.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/sort_poker_hand.c">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/ffd/PycharmProjects/howdyhoBOT/PokerHand/CMakeLists.txt">

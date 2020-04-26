@@ -1,7 +1,7 @@
 #include "methods.h"
 #include "minilib.h"
 
-void isFlush(t_pokerHand *hand)
+bool isFlush(t_pokerHand *hand)
 {
 	/*
 	 * Сортируем масив по мастям и проверям если
@@ -11,6 +11,10 @@ void isFlush(t_pokerHand *hand)
 	t_pokerHand *last_card = get_last_card(hand);
 
 	if(mx_strcmp(hand -> suit, last_card -> suit) == 0)
-		print_result(5);
+	{
+//		freeList(hand);
+//		print_result(5);
+		return true;
+	}
 }
 

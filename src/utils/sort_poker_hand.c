@@ -44,29 +44,29 @@ t_pokerHand *mx_sort_poker_hand(t_pokerHand *list, bool(*cmp)(t_pokerHand *hand1
 			{
 				if(temp != ptr && ptr->next->next)
 				{
-					temp->next = ptr->next;
-					ptr->next = ptr->next->next;
-					temp->next->next = ptr;
+					temp -> next = ptr -> next;
+					ptr -> next = ptr -> next -> next;
+					temp -> next -> next = ptr;
 					swapped = true;
 				}
 				else if(temp == ptr && ptr->next)
 				{
-					ptr = ptr->next;
-					temp->next = ptr->next;
-					ptr->next = temp;
+					ptr = ptr -> next;
+					temp -> next = ptr -> next;
+					ptr -> next = temp;
 					list = ptr;
 					swapped = true;
 				}
 				else
 				{
-					temp->next = ptr->next;
-					temp->next->next = ptr;
-					ptr->next = NULL;
+					temp -> next = ptr -> next;
+					temp -> next -> next = ptr;
+					ptr -> next = NULL;
 				}
 			}
 			temp = ptr;
-			if(ptr->next)
-				ptr = ptr->next;
+			if(ptr -> next)
+				ptr = ptr -> next;
 		}
 		ptr = list;
 		temp = ptr;

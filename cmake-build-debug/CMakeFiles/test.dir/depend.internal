@@ -4,35 +4,46 @@
 CMakeFiles/test.dir/main.c.o
  ../inc/methods.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/main.c
-CMakeFiles/test.dir/src/ErrorHandler.c.o
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o
+ ../inc/methods.h
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/ErrorHandler.c
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isFlush.c
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o
+ ../inc/methods.h
+ ../inc/minilib.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/Combinations/isStraight.c
 CMakeFiles/test.dir/src/PokerHand.c.o
  ../inc/methods.h
  ../inc/minilib.h
  /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/PokerHand.c
-CMakeFiles/test.dir/src/getPokerHand.c.o
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.o
+ ../inc/minilib.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/ErrorHandler.c
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o
  ../inc/methods.h
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/getPokerHand.c
-CMakeFiles/test.dir/src/isFlush.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/GenerateCard.c
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o
+ ../inc/methods.h
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/PokerHandErraser.c
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o
  ../inc/methods.h
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/isFlush.c
-CMakeFiles/test.dir/src/lib.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/getPokerHand.c
+CMakeFiles/test.dir/src/utils/lib.c.o
  ../inc/methods.h
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/lib.c
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/lib.c
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_del_extra_whitespaces.c
-CMakeFiles/test.dir/src/mx_strtrim.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_del_extra_whitespaces.c
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.o
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/mx_strtrim.c
-CMakeFiles/test.dir/src/print_result.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/mx_strtrim.c
+CMakeFiles/test.dir/src/utils/print_result.c.o
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/print_result.c
-CMakeFiles/test.dir/src/sort_poker_hand.c.o
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/print_result.c
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o
  ../inc/methods.h
  ../inc/minilib.h
- /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/sort_poker_hand.c
+ /home/ffd/PycharmProjects/howdyhoBOT/PokerHand/src/utils/sort_poker_hand.c

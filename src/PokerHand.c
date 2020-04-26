@@ -39,7 +39,18 @@ void PokerHand(char *poker_hand) {
 	check_duplicate(tPokerHand);
 	check_hand(tPokerHand);
 
-	isFlush(tPokerHand);
+	/* Combinations */
+	if (isFlush(tPokerHand) && isStraight(tPokerHand) && get_last_card(tPokerHand) -> rank[0] == 'A')
+	{
+		print_result(1);
+		freeList(tPokerHand);
+	}
+	else if(isFlush(tPokerHand) && isStraight(tPokerHand))
+	{
+		print_result(2);
+		freeList(tPokerHand);
+	}
 
-	make_card(tPokerHand);
+	isFlush(tPokerHand);
+	isStraight(tPokerHand);
 }

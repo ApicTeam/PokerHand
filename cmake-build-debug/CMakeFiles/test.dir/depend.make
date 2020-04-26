@@ -4,35 +4,46 @@
 CMakeFiles/test.dir/main.c.o: ../inc/methods.h
 CMakeFiles/test.dir/main.c.o: ../main.c
 
-CMakeFiles/test.dir/src/ErrorHandler.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/ErrorHandler.c.o: ../src/ErrorHandler.c
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/Combinations/isFlush.c.o: ../src/Combinations/isFlush.c
+
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/Combinations/isStraight.c.o: ../src/Combinations/isStraight.c
 
 CMakeFiles/test.dir/src/PokerHand.c.o: ../inc/methods.h
 CMakeFiles/test.dir/src/PokerHand.c.o: ../inc/minilib.h
 CMakeFiles/test.dir/src/PokerHand.c.o: ../src/PokerHand.c
 
-CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/methods.h
-CMakeFiles/test.dir/src/getPokerHand.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/getPokerHand.c.o: ../src/getPokerHand.c
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/ErrorHandler.c.o: ../src/utils/ErrorHandler.c
 
-CMakeFiles/test.dir/src/isFlush.c.o: ../inc/methods.h
-CMakeFiles/test.dir/src/isFlush.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/isFlush.c.o: ../src/isFlush.c
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/GenerateCard.c.o: ../src/utils/GenerateCard.c
 
-CMakeFiles/test.dir/src/lib.c.o: ../inc/methods.h
-CMakeFiles/test.dir/src/lib.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/lib.c.o: ../src/lib.c
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/utils/PokerHandErraser.c.o: ../src/utils/PokerHandErraser.c
 
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/mx_del_extra_whitespaces.c.o: ../src/mx_del_extra_whitespaces.c
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/getPokerHand.c.o: ../src/utils/getPokerHand.c
 
-CMakeFiles/test.dir/src/mx_strtrim.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/mx_strtrim.c.o: ../src/mx_strtrim.c
+CMakeFiles/test.dir/src/utils/lib.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/utils/lib.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/lib.c.o: ../src/utils/lib.c
 
-CMakeFiles/test.dir/src/print_result.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/print_result.c.o: ../src/print_result.c
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/mx_del_extra_whitespaces.c.o: ../src/utils/mx_del_extra_whitespaces.c
 
-CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../inc/methods.h
-CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../inc/minilib.h
-CMakeFiles/test.dir/src/sort_poker_hand.c.o: ../src/sort_poker_hand.c
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/mx_strtrim.c.o: ../src/utils/mx_strtrim.c
+
+CMakeFiles/test.dir/src/utils/print_result.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/print_result.c.o: ../src/utils/print_result.c
+
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o: ../inc/methods.h
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o: ../inc/minilib.h
+CMakeFiles/test.dir/src/utils/sort_poker_hand.c.o: ../src/utils/sort_poker_hand.c
 
